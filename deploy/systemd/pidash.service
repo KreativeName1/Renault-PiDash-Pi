@@ -1,0 +1,17 @@
+[Unit]
+Description=PiDash
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/pidash
+ExecStart=/usr/bin/dotnet /opt/pidash/PiDash.dll
+Restart=always
+RestartSec=1
+User=pidash
+Group=pidash
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
+
+[Install]
+WantedBy=multi-user.target

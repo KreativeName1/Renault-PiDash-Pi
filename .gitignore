@@ -1,0 +1,7 @@
+src/bin/
+src/obj/
+src/packages/
+src/riderModule.iml
+src/_ReSharper.Caches/
+src/*.md
+src/.github/*

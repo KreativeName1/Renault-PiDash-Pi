@@ -1,0 +1,14 @@
+{
+  "Spi": {
+    "SensorMcu": { "BusId": 1, "ChipSelect": 0, "Hz": 4000000, "Mode": 0 },
+    "CanMcu":    { "BusId": 1, "ChipSelect": 1, "Hz": 8000000, "Mode": 0 },
+
+    "Display1":  { "BusId": 0, "ChipSelect": 0, "Hz": 16000000, "Mode": 0 },
+    "Display2":  { "BusId": 0, "ChipSelect": 1, "Hz": 16000000, "Mode": 0 },
+    "Display3":  { "BusId": 0, "ChipSelect": 2, "Hz": 16000000, "Mode": 0 }
+  },
+  "Gpio": {
+    "ShutdownPin": 5,
+    "Buttons": [ 17, 27, 22 ]
+  }
+}
